@@ -12,6 +12,10 @@ symfony server:start -d
 open http://localhost:8000/user
 ```
 
+## Firebase設定
+- Firebaseのプロジェクト作成
+- config/firebase_credentials.jsonに認証情報を保存
+
 ## URL
 
 ユーザ登録: http://localhost:8000/user
