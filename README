@@ -1,0 +1,22 @@
+# FirebaseAuthSample
+
+
+## Install & Launch
+```
+curl -sS https://get.symfony.com/cli/installer | bash
+composer install
+cp .env.dev .env
+bin/console doctrine:database:create
+bin/console doctrine:migrations:migrate
+symfony server:start -d
+open http://localhost:8000/user
+```
+
+## URL
+
+ユーザ登録: http://localhost:8000/user
+ログイン： http://localhost:8000/login
+ログアウト： http://localhost:8000/logout
+
+## GitHub認証
+ユーザ登録時にGitHub IDを登録すると認証できます。（本当はちゃんとアカウント連携が必要ですが、テストなのでIDだけで紐付けしてます
